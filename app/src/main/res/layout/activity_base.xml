@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@mipmap/title_bar">
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dip"
+            android:background="@mipmap/update"
+            android:gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/clear_button_selector"
+            android:gravity="center_vertical" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/base_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

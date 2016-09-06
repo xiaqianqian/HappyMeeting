@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">会议通</string>
+    <string name="loading">正在刷新...</string>
+    <string name="action_settings">Setting</string>
+</resources>
